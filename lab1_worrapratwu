@@ -1,0 +1,90 @@
+"""
+Lab 1 - First Impression of Python
+(100 marks in total, including
+4 exercises + submission (10 marks))
+
+Your Name 😍:
+Lab Due: 5:00pm on Jan. 09, 2026
+
+Objective (By the end of this lab, you will be able to):
+1. understand what a comment is in Python
+2. use the python3 interpreter to run your .py file
+3. recognize common errors in coding: syntax error, semantic (logic) error, and runtime error
+4. debug simple Python programs by fixing common errors
+5. understand the importance of indentation in Python
+6. use the print() function to display information in Python.
+"""
+
+#-------What is a comment in programming languages?---------------------------------
+# A regular comment in Python usually starts with a #. 
+# Regular comments are used to explain parts of the code for developers reading it.
+# Comments are not run as code by the interpreter.
+# So this part is a comment. # is only able to comment one line at a time. 
+# If you want to comment multiple lines, 
+# you can use command + / (Mac) or ctl + / (Windows). 
+# Or you can use ''' ''' or """ """ to create a multiline string or a docstring. 
+#---------------------------------------------------------
+
+
+#---------------------------------------------------------
+# Exercise 1 (20 marks) - Run the file. 
+# You should see the output "Hello, World!" in the terminal.
+# Then modify the code below so that it prints "Hello, Alice!" instead.
+#---------------------------------------------------------
+
+print("Hello, Alice!")
+
+#---------------------------------------------------------
+# Exercise 2 (20 marks)- syntax error 
+# Firstly, uncomment the line 42.
+# Then fix its syntax error, to make it print the result of 5 + 6.
+#---------------------------------------------------------
+
+print(5 + 6)
+
+#---------------------------------------------------------
+# Exercise 3 (20 marks) - Semantic error
+# Firstly, uncomment the line 52.
+# Then fix its semantic error, to make it calculate the area of the rectangle correctly.
+#---------------------------------------------------------
+
+
+print("The area of a rectangle with length 3 and width 4 is", 3 * 4)
+
+#---------------------------------------------------------
+# Pre-exercise: Set up your GitHub, following https://elearn.capu.ca/pluginfile.php/3932839/mod_resource/content/1/GitHub%20Setup.pdf
+# Exercise 4 (30 marks) - Write a letter to your instructor
+# Firstly, uncomment the lines from 61 to 80.
+# Then change the variable values from line 61 to 65 to your info. 
+#---------------------------------------------------------
+
+name = "Worraprat"
+hobby = "watching movies"
+coding_experience = "beginner"
+weekly_hours_learn_coding = 9
+my_github_comp115_repo = "https://github.com/pepeworraprat/comp115"
+
+print(f"""
+Hi,
+
+I am {name}. I like {hobby}.
+
+My experience level in coding is {coding_experience}, at least I think.
+I would love to learning coding {weekly_hours_learn_coding} hours per week.
+Here is my COMP115 repo at GitHub: {my_github_comp115_repo}.
+
+Hope we will have fun in learning Python together this term! 
+
+Cheers,
+{name}
+""")
+
+
+#---------------------------------------------------------
+# Submission (10 marks):
+# After you finish this lab, please:
+# 1. rename the lab file as lab1_{your_first_name}.py, e.g., lab1_alice.py would be my lab1 file name.
+# 2. upload your lab1 python file to your GitHub "comp115" repository.
+# 3. submit your github comp115 repo link on the e-learn.
+# Great job. Congratulations on finishing your lab1!
+#---------------------------------------------------------
